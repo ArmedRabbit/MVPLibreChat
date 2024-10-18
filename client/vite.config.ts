@@ -38,11 +38,11 @@ export default defineConfig({
     strictPort: false,
     proxy: {
       '/api': {
-        target: 'http://localhost:3080',
+        target: 'https://991f-13-57-248-176.ngrok-free.app',
         changeOrigin: true,
       },
       '/oauth': {
-        target: 'http://localhost:3080',
+        target: 'https://991f-13-57-248-176.ngrok-free.app',
         changeOrigin: true,
       },
     },
