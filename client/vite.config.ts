@@ -33,7 +33,7 @@ export default defineConfig({
     fs: {
       cachedChecks: false,
     },
-    host: 'localhost',
+    host: 'https://991f-13-57-248-176.ngrok-free.app',
     port: 3090,
     strictPort: false,
     proxy: {
