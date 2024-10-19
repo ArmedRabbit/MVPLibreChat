@@ -2,7 +2,7 @@ module.exports = {
   roots: ['<rootDir>/src'],
   testEnvironment: 'jsdom',
   testEnvironmentOptions: {
-    url: 'http://localhost:3080',
+    url: 'https://991f-13-57-248-176.ngrok-free.app',
   },
   collectCoverage: true,
   collectCoverageFrom: [
